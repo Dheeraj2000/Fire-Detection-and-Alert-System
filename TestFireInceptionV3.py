@@ -23,7 +23,7 @@ def sendEmail(to, content):
     server.starttls()   # which will helps us in putting connection to the smtp server into the TLS model
     # for this function, you must enable low security in your gmail which you are going to use as sender
 
-    server.login('dheerajrohilla2020@gmail.com', 'utkhkabrltgvgsbt')
+    server.login('dheerajrohilla2020@gmail.com', 'pass')
     try:
         server.sendmail('dheerajrohilla2020@gmail.com', to, content)
         print("Email sent")
